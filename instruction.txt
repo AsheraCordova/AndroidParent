@@ -1,0 +1,8 @@
+mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=androidx-core-1.0.1.jar -DgroupId=androidx.core -DartifactId=core-jar -Dversion=1.0.1 -Dpackaging=jar -DlocalRepositoryPath=D:/Java/github_ashera/mvn-ashera-android-repo -DcreateChecksum=true
+
+mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=cordova-framework-11.0.0.jar -DgroupId=org.apache.cordova -DartifactId=framework-jar -Dversion=11.0.0 -Dpackaging=jar -DlocalRepositoryPath=D:/Java/github_ashera/mvn-ashera-android-repo -DcreateChecksum=true
+
+mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=appcompat-1.2.0.jar -DgroupId=androidx.appcompat -DartifactId=appcompat-jar -Dversion=1.2.0 -Dpackaging=jar -DlocalRepositoryPath=D:/Java/github_ashera/mvn-ashera-android-repo -DcreateChecksum=true
+
+
+mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=android-29.jar -DgroupId=com.google.android -DartifactId=android -Dversion=1.0.1 -Dpackaging=jar -DlocalRepositoryPath=D:/Java/github_ashera/mvn-ashera-android-repo -DcreateChecksum=true
